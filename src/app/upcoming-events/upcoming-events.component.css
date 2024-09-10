@@ -33,8 +33,8 @@ section {
   position: absolute;
   bottom: -15px;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+  /* -webkit-transform: translateX(-50%);
+  transform: translateX(-50%); */
 }
 .heading-wrapper h2 span {
   color: #0db496;
@@ -63,12 +63,12 @@ section {
   overflow: hidden;
 }
 .upcoming-events .three-cards .row .col-lg-4 .card:hover .card-img {
-  transform: scale(1.03);
+  /* transform: scale(1.03); */
 }
 .card-img {
   width: 100%;
   height: 200px;
-  transition: 0.3s ease-in-out;
+  /* transition: 0.3s ease-in-out; */
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -100,8 +100,8 @@ section {
   position: absolute;
   bottom: -12px;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+  /* -webkit-transform: translateX(-50%); */
+  /* transform: translateX(-50%); */
 }
 .upcoming-events .three-cards .row .col-lg-4 .card .card-text .small-text p {
   margin: 0;
@@ -206,11 +206,11 @@ section {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  -webkit-animation: live 2s ease-in-out infinite;
-          animation: live 2s ease-in-out infinite;
+  /* -webkit-animation: live 2s ease-in-out infinite;
+          animation: live 2s ease-in-out infinite; */
   z-index: -1;
 }
-
+/* 
 @-webkit-keyframes live {
   0% {
     transform: scale(1, 1);
@@ -229,7 +229,7 @@ section {
     transform: scale(3.5, 3.5);
     background-color: rgba(255, 0, 0, 0);
   }
-}
+} */
 
 .toolbar {
   display: flex;
@@ -313,6 +313,7 @@ small b {
 
   .btn {
     width: 85px;
+    
   }
 
   span.live-icon {
@@ -322,6 +323,6 @@ small b {
 }
 @media only screen and (max-width: 350px) {
   .btn {
-    width: 100%;
+    width: 30%;
   }
 }

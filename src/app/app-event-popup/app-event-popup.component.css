@@ -92,7 +92,7 @@ p {
 
 @media (max-width: 768px) {
   .event-image {
-    width: 80%;
+    width: 100%;
     height: auto;
     margin-bottom: 10px;
   }
@@ -132,7 +132,7 @@ p {
           animation: live 2s ease-in-out infinite;
   z-index: -1;
 }
-
+/* 
 @-webkit-keyframes live {
   0% {
     transform: scale(1, 1);
@@ -151,7 +151,7 @@ p {
     transform: scale(3.5, 3.5);
     background-color: rgba(255, 0, 0, 0);
   }
-}
+} */
 
 .toolbar {
   display: flex;
@@ -166,12 +166,12 @@ p {
   /* display: block; */
   font-weight: 700;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 30px;
+  left:30px;
   padding: 1px 10px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   text-decoration: none;
-  color: #333;
+  color: #ffffff;
   border-radius: 50px;
   border: 1px solid white;
   box-shadow: 0px 2px 0px #02679e;
@@ -211,6 +211,7 @@ p {
 }
 
 .btn_live {
+  padding-left: 35px;
   padding-right: 22px;
 }
 
@@ -241,9 +242,17 @@ small b {
     position: absolute;
     right: 20px;
   }
+
+  .btn_live{
+    padding-left: 0px;
+  }
 }
 @media only screen and (max-width: 350px) {
   .btn {
-    width: 100%;
+    width: 30%;
+    top:39px;
+    left:39px;
+    color: white;
+    background-color: rgb(0, 0, 0,0.7);
   }
 }
