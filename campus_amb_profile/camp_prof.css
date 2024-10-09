@@ -1,0 +1,62 @@
+.profile-page{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-content {
+    flex-grow: 1;
+    display: flex;
+    text-align: center;
+}
+.logo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.profile-block, .registered-block {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+}
+
+/* desktop view */
+@media (min-width : 768px ){
+    .profile-page {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .profile-block, .registered-block {
+        width: 100%;
+        margin-bottom: 20;
+    }
+}
+
+/* mobile view */
+@media (max-width: 768px){
+    .profile-block, .registered-block{
+        width: 100%
+    }
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.student {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
